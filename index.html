@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
+  <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+  <link rel="shortcut icon" href="#" type="image/x-icon" />
+  <link href="https://cdn.muicss.com/mui-0.9.41/css/mui.min.css" rel="stylesheet" type="text/css" />
+  <link href="main.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.muicss.com/mui-0.9.41/js/mui.min.js"></script>
+  <script src="node_modules/lodash/lodash.js"></script>
+  <script src="node_modules/platform/platform.js"></script>
+  <script src="node_modules/benchmark/benchmark.js"></script>
+
+  <style>
+    * {
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header class="mui-appbar mui--z1">
+    <div class="mui-container">
+      <table>
+        <tr class="mui--appbar-height">
+          <td class="mui--text-title">JS Performance Lab</td>
+        </tr>
+      </table>
+    </div>
+  </header>
+  <div id="content-wrapper" class="mui--text-center">
+    <div class="mui--appbar-height"></div>
+    <br>
+    <br>
+    <div class="mui-container-fluid">
+      <div class="mui-row flex">
+        <div class="mui-col-md-9 flex-center">
+          <div class="mui-panel" id="results">
+            <!-- filled by JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="mui-container mui--text-center"></div>
+  </footer>
+  <script src="dist/prototype-class.js"></script>
+  <script src="dist/prototype-define-properties.js"></script>
+  <script src="dist/prototype-map-holder.js"></script>
+  <script src="dist/prototype-proxy.js"></script>
+  <script src="dist/prototype-wrapper.js"></script>
+  <script src="dist/prototype.js"></script>
+  <script src="dist/utils.js"></script>
+  <script src="dist/tests-browser.js"></script>
+</body>
+</html>
